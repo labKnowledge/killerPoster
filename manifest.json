@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Post Helper",
+  "version": "1.0",
+  "description": "Helps generate killer LinkedIn posts using Claude.ai",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://www.claude.ai/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Generate LinkedIn Post"
+  }
+}
